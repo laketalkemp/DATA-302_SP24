@@ -1,0 +1,14 @@
+﻿Flag,Flags
+A,Official figure
+B,Time series break
+C,"Aggregate, may include official, semi-official, estimated or calculated data"
+E,Estimated value
+F,Forecast value
+I,Imputed value
+M,"Missing value (data cannot exist, not applicable)"
+N,Not significant (negligible)
+O,Missing value
+P,Provisional value
+Q,Missing value; suppressed
+U,Low reliability
+X,Figure from international organizations

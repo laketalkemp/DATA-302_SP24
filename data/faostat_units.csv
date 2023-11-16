@@ -1,0 +1,61 @@
+﻿Unit Name,Description
+%,Percent
+%LSU,Percent of Total Livestock Units
+°c,Degrees celsius
+0.1 g/An,tenth Grams per animal
+100 g,hundred Grams
+100 g/An,hundred Grams per animal
+100 g/ha,hundred Grams per hectare
+100 g/t,hundred Grams per tonne
+100 mg/An,hundred Milligrams per animal
+1000 An,thousand Animals
+1000 ha,thousand Hectares
+1000 I$,1000 international dollars
+1000 Int. $,1000 International dollars
+1000 No,thousand Number
+1000 SLC,thousand Standard Local Currency
+1000 t,thousand Tonnes
+1000 USD,thousand US Dollar
+An,Animals
+g/cap/d,Grams per capita per day
+g/pc/d,Grams per capita per day
+ha,Hectares
+ha/pc,Hectares per capita
+I$,international dollar
+I$ per person,international dollars per person
+Index,Index
+kcal/cap/d,Kilocalories per capita per day
+kcal/pc/d,Kilocalories per capita per day
+kg,Kilograms
+kg CO2eq/kg,Kilograms of CO2 equivalent per kilogram
+kg/1000 Int.$,kilograms per thousand international dollars
+kg/ha,Kilograms per hectare
+kg/pc,Kilograms per capita
+km,Kilometers
+km2,Square kilometers
+kt,Kilotonnes
+LCU,Local Currency units
+LCU/pc/d,Local Currency Units per capita per day
+LCU/t,Local Currency Units per tonne
+LSU,Livestock units
+LSU/ha,Livestock units per hectare
+m3,Cubic meters
+million Kcal,million Kilocalories
+million LCU,million Local Currency units
+million No,million Number
+million PPP,million PPP
+million SLC,million Standard Local Currency
+million t,million Tonnes
+million USD,million US Dollar
+No,Number
+No/An,Number per animal
+PPP dollar per person per day,purchasing power parity dollar per person per day
+Score,Score
+SLC,Standard Local Currency
+t,Tonnes
+t/cap,Tonnes per capita
+t/ha,Tonnes per hectare
+TJ,Terajoule
+USD,US Dollar
+USD/m3,US dollars per cubic metre
+USD_PPP/cap,"US Dollar, converted using purchasing power parities per capita"
