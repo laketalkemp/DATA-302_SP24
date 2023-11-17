@@ -13,11 +13,11 @@ Plant breeding is essential for achieving food security in the context of modern
 
 The [International Union for the Protection of New Varieties of Plants](https://www.upov.int/portal/index.html.en) (UPOV)—an intergovernmental organization founded in 1961 and based in Geneva, Switzerland—argues that plant breeders must be incentivized to continue their work given that a new plant variety can easily be reproduced and reused by others once discovered.  To safeguard economic profits for breeders, UPOV has developed a "blueprint" regulatory framework of intellectual property rights (i.e., the UPOV Convention) that awards breeders monopolies on new plant varieties and requires other farmers to seek their authorization for marketing and sale of the varieties (e.g., through licensing fees). Today, a country or intergovernmental organization can become a member of UPOV by adapting the intellectual property laws in the UPOV Convention to their own legal jurisdictions.  As of May 2023, UPOV had 78 members representing more than a third of the world’s countries.
 
-However, this growth in membership has not been without controversy.  Grassroots organizations and nonprofits like GRAIN argue that UPOV favors seeds from “Big Ag” companies like Bayer (formerly Monsanto), Syngenta, Corteva, and BASF over those from small farmers. These companies typically grow export crops using _monoculture farming_, an unsustainable practice that depletes the soil of nutrients over time and requires extensive irrigation, fertilizers, and pesticides that harm the environment. On June 1st, 2023, a coalition of farmers’ organizations, women’s organizations, trade activists, and consumer groups released a joint statement to express their concern over Benin’s potential membership in UPOV, urging the nation to protect its food sovereignty from foreign companies and promote the use of indigenous seeds better adapted to the local environment to preserve biodiversity. The outcome of these efforts is still to be determined, but they hope to continue lobbying against UPOV.
+However, this growth in membership has not been without controversy.  Grassroots organizations and nonprofits like GRAIN argue that UPOV favors seeds from “Big Ag” companies like Bayer (who acquired Monsanto), Syngenta, Corteva, and BASF over those from small farmers. These companies typically grow export crops using _monoculture farming_, an unsustainable practice that depletes the soil of nutrients over time and requires extensive irrigation, fertilizers, and pesticides that harm the environment. On June 1st, 2023, a coalition of farmers’ organizations, women’s organizations, trade activists, and consumer groups released a joint statement to express their concern over Benin’s potential membership in UPOV, urging the nation to protect its food sovereignty from foreign companies and promote the use of indigenous seeds better adapted to the local environment. The outcome of these efforts is still to be determined, but they hope to continue lobbying against UPOV.
 
 ## Problem
 
-GRAIN suspects that the growth of the UPOV has **not** resulted in larger crop yields over time and would like to test their hypothesis by analyzing publicly available data from the [Food and Agriculture Organization](https://www.fao.org/faostat/en/#data/QCL) (FAO) of the United Nations. This dataset records hectares of land area harvested and tons of output produced for different primary crops (e.g., almonds, papayas, avocadoes) each year since 1961 for over 200 countries.  It is also supplemented by datasets listing standardized crop catgories and countries' membership in UPOV over time.
+GRAIN suspects that the growth of the UPOV has **not** resulted in larger crop yields over time and would like to test their hypothesis by analyzing publicly available data from the [Food and Agriculture Organization](https://www.fao.org/faostat/en/#data/QCL) (FAO) of the United Nations. This dataset records hectares of land area harvested and tons of output produced for different primary crops (e.g., almonds, papayas, avocadoes) each year since 1961 for over 200 countries.  It is also supplemented by datasets listing standardized crop categories and countries' membership in UPOV over time.
 
 An exploratory data analysis (EDA) could explore the following questions:
 
@@ -36,14 +36,16 @@ Meanwhile, our main research questions are as follows:
 Each team is expected to turn in:
 
 1. A Python script with functions to clean and standardize the crop dataset.
-2. An EDA that loads in the raw datasets, cleans the records, and then answers the questions above using one or more Jupyter notebooks.
+2. An EDA that loads the data and then answers the questions above using one or more Jupyter notebooks.
 3. A Jupyter notebook that explores the correlation between UPOV membership and crop yields and determines the extent to which UPOV membership is predictive of yields.
 4. A Jupyter notebook that explores the effect joining UPOV had on the area harvested for different crops.
-5. A written (2-3 pages) or digial report that walks through your data, methodology, analysis, and conclusions and provides data visualizations.
+5. A written (2-3 pages) or digital report that walks through your data, methodology, analysis, and conclusions and provides data visualizations.
 
 ## Working with the Data
 
 This repository only contains the data for use by this project. All datasets are saved as comma-separated files and can be read by any analysis tool which opens standard CSV. 
+
+The data in this repository should be considered a starting point for this project. There are numerous directions that the analysis could go and leveraging additional datasets to support your conclusions is strongly encouraged.
 
 ## Data Dictionary
 
