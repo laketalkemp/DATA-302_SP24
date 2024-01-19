@@ -1,9 +1,14 @@
-# CAN-GRAIN Project
+# CAN-mBio Project
 
 An analysis of global crop productivity and its relationship to intellectual property rights for plant breeders.
 
 ## Stakeholders
-[GRAIN](https://grain.org/) is an international nonprofit organization established in 1990 and headquartered in Barcelona, Spain.  Its mission is to support small farmers and social movements in their quest for community-controlled and biodiversity-based food systems, primarily in Africa, Asia, and Latin America.
+[mBio](https://datascience.uchicago.edu/news/new-mbio-data-portal-brings-transparency-to-genetically-modified-crops-in-africa/) is a collaboration between researchers based at The University of San Francisco, The University of Chicago and The University of Cambridge. The project exists to understand the effects of GMO crop development primarily on the African continent. 
+
+The project, funded by the [11th hour foundation](https://11thhourproject.org/), has successfully built a [database](https://mbioproject.org/about) of information about the use of GMOs and other related material by scraping public websites and using AI, ML and other data techniques to source information. This databases provides a unique perspective on who and how these products are used. 
+
+This project has resulted in both [popular press mentions](https://www.thenation.com/article/world/new-colonialist-food-economy/) and published academic [articles](https://nph.onlinelibrary.wiley.com/doi/full/10.1002/ppp3.10453). 
+
 
 [The University of Chicago Data Science Institute](https://datascience.uchicago.edu/) (DSI), founded in 2021, executes the university's bold, innovative vision of Data Science as a new discipline. Through a grant received from the 11th Hour Project run by the Schmidt Family Foundation, its staff consults with social impact organizations to provide technical solutions at no cost. 
 
@@ -13,11 +18,11 @@ Plant breeding is essential for achieving food security in the context of modern
 
 The [International Union for the Protection of New Varieties of Plants](https://www.upov.int/portal/index.html.en) (UPOV)—an intergovernmental organization founded in 1961 and based in Geneva, Switzerland—argues that plant breeders must be incentivized to continue their work given that a new plant variety can easily be reproduced and reused by others once discovered.  To safeguard economic profits for breeders, UPOV has developed a "blueprint" regulatory framework of intellectual property rights (i.e., the UPOV Convention) that awards breeders monopolies on new plant varieties and requires other farmers to seek their authorization for marketing and sale of the varieties (e.g., through licensing fees). Today, a country or intergovernmental organization can become a member of UPOV by adapting the intellectual property laws in the UPOV Convention to their own legal jurisdictions.  As of May 2023, UPOV had 78 members representing more than a third of the world’s countries.
 
-However, this growth in membership has not been without controversy.  Grassroots organizations and nonprofits like GRAIN argue that UPOV favors seeds from “Big Ag” companies like Bayer (who acquired Monsanto), Syngenta, Corteva, and BASF over those from small farmers. These companies typically grow export crops using _monoculture farming_, an unsustainable practice that depletes the soil of nutrients over time and requires extensive irrigation, fertilizers, and pesticides that harm the environment. On June 1st, 2023, a coalition of farmers’ organizations, women’s organizations, trade activists, and consumer groups released a joint statement to express their concern over Benin’s potential membership in UPOV, urging the nation to protect its food sovereignty from foreign companies and promote the use of indigenous seeds better adapted to the local environment. The outcome of these efforts is still to be determined, but they hope to continue lobbying against UPOV.
+However, this growth in membership has not been without controversy.  Grassroots organizations and nonprofits and other experts argue that UPOV favors seeds from “Big Ag” companies like Bayer (who acquired Monsanto), Syngenta, Corteva, and BASF over those from small farmers. These companies typically grow export crops using _monoculture farming_, an unsustainable practice that depletes the soil of nutrients over time and requires extensive irrigation, fertilizers, and pesticides that harm the environment. On June 1st, 2023, a coalition of farmers’ organizations, women’s organizations, trade activists, and consumer groups released a joint statement to express their concern over Benin’s potential membership in UPOV, urging the nation to protect its food sovereignty from foreign companies and promote the use of indigenous seeds better adapted to the local environment. The outcome of these efforts is still to be determined, but they hope to continue lobbying against UPOV.
 
 ## Problem
 
-GRAIN suspects that the growth of the UPOV has **not** resulted in larger crop yields over time and would like to test their hypothesis by analyzing publicly available data from the [Food and Agriculture Organization](https://www.fao.org/faostat/en/#data/QCL) (FAO) of the United Nations. This dataset records hectares of land area harvested and tons of output produced for different primary crops (e.g., almonds, papayas, avocadoes) each year from 1961 to 2021 for over 200 countries.  It is also supplemented by additional datasets listing standardized country codes, units of measurement, and quality control flags and countries' membership in UPOV over time.
+Researchers and other experts suspects that the growth of the UPOV has **not** resulted in larger crop yields over time and would like to test their hypothesis by analyzing publicly available data from the [Food and Agriculture Organization](https://www.fao.org/faostat/en/#data/QCL) (FAO) of the United Nations. This dataset records hectares of land area harvested and tons of output produced for different primary crops (e.g., almonds, papayas, avocadoes) each year from 1961 to 2021 for over 200 countries.  It is also supplemented by additional datasets listing standardized country codes, units of measurement, and quality control flags and countries' membership in UPOV over time.
 
 An exploratory data analysis (EDA) could explore the following questions:
 
@@ -102,7 +107,7 @@ This CSV file describes the meaning of each unit of measurement in the crop data
 
 ### upov_members.csv
 
-This CSV file contains information on when different countries joined the UPOV.  It was provided directly by GRAIN and lightly cleaned by a DSI staff member.  
+This CSV file contains information on when different countries joined the UPOV. This was collected and cleaned by the Data Science Institute staff.
 
 | Column Name  | Data Type | Description | Example Value |
 | ------------- | ------------- | ------------- | --|
